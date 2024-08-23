@@ -1,0 +1,117 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+
+.navbar {
+    background-color: rgb(170, 242, 254);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar-logo {
+    width: 120px;
+    height: 79.8px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+.search-container select {
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 17px;
+    outline: none;
+}
+
+.search-container .icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 24px;
+    height: 24px;
+    margin: 0 14px;
+}
+
+.profile{
+    width: 24px;
+    height: 24px;
+    margin: 0 14px;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+#cart-link {
+    position: relative;
+    display: inline-block;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #2a3138;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.alert button {
+    background-color: #00b5b8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}

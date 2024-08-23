@@ -1,0 +1,19 @@
+.about-us-container {
+    padding: 20px 30px;
+    width: 60%;
+    margin: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .navbar {
+    color: rgb(106, 197, 243);
+  }
+  
+  .navbar h1 {
+    font-size: 3em;
+  }
+  
+  .h2 {
+    font-size: x-large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
