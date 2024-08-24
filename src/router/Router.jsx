@@ -19,11 +19,10 @@ const Signup = lazy(() => import("../components/Signup/Signup"));
 
 function MainRouter() {
   return (
-    <Router>
+    <Router basename="/">
       <React.Suspense fallback={<h1>Loading...</h1>}>
         <Routes>
           <Route path={`/cart`} element={<Cart />}></Route>
-          <Route path={`/`} element={<Home />}></Route>
           <Route path={`/checkout`} element={<Checkout />}></Route>
           <Route path={`/login`} element={<Login />}></Route>
           <Route path={`/signup`} element={<Signup />}></Route>
@@ -32,6 +31,7 @@ function MainRouter() {
           <Route path={`/terms`} element={<Terms />}></Route>
           <Route path={`/privacy`} element={<Privacy />}></Route>
           <Route path={`/shipping`} element={<Shipping />}></Route>
+          <Route path={`/`} element={<Home />}></Route>
         </Routes>
       </React.Suspense>
     </Router>

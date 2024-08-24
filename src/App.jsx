@@ -3,15 +3,13 @@ import store from "./store/store.js";
 import { Provider } from "react-redux";
 import MainRouter from './router/Router.jsx';
 
-function App({ children }) {
+function App() {
   return (
     <div className="App">
-
       <Provider store={store} >
         <MainRouter>
         </MainRouter>
       </Provider>
-
     </div>
   );
 }
