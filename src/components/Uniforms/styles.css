@@ -19,7 +19,7 @@
     font-size: 16px;
     border-radius: 5px;
     transition: background-color 0.3s;
-    width: 10%;
+    width: auto;
     margin: auto;
 }
 
