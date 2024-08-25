@@ -19,7 +19,7 @@ const Signup = lazy(() => import("../components/Signup/Signup"));
 
 function MainRouter() {
   return (
-    <Router basename="/Starial-react">
+    <Router>
       <React.Suspense fallback={<h1>Loading...</h1>}>
         <Routes>
           <Route path={`/cart`} element={<Cart />}></Route>
