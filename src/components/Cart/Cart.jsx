@@ -61,7 +61,7 @@ const Cart = () => {
       <div className="container">
         <div id="cart-content">
           <ul>
-            {cartData.products.map((item, index) => {
+            {cartData?.products.map((item, index) => {
               return (
                 <li class="cart-item" key={index}>
                   <div class="item-info">
