@@ -10,7 +10,7 @@ function Terms() {
         margin: "auto",
       }}
     >
-      <div className="navbar">
+      <div className="navbar-terms">
         <h1 style={{ fontSize: "3em" }}>Terms & Conditions</h1>
       </div>
       <div className="h2">
