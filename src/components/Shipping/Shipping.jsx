@@ -3,7 +3,7 @@ import React from "react";
 function ShippingPolicy() {
   return (
     <div>
-      <nav className="navbar">
+      <nav className="navbar-shipping">
         <h1 id="section" style={{ fontSize: "3em" }}>
           Shipping Policy
         </h1>
