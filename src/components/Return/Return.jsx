@@ -4,7 +4,7 @@ import "./styles.css";
 function Return() {
   return (
     <div style={{ padding: "20px 30px", width: "60%", margin: "auto" }}>
-      <div className="navbar">
+      <div className="navbar-return">
         <h1 style={{ fontSize: "3em" }}>Return Policy</h1>
       </div>
       <p className="h2">
