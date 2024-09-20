@@ -3,7 +3,7 @@ import React from "react";
 function PrivacyPolicy() {
   return (
     <div>
-      <div className="navbar" style={{ fontSize: "3em" }}>
+      <div className="navbar-privacy" style={{ fontSize: "3em" }}>
         <h1>Privacy Policy</h1>
       </div>
 

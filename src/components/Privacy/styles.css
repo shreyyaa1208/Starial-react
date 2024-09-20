@@ -1,8 +1,9 @@
-navbar {
+.navbar-privacy {
     color: rgb(106, 197, 243);
+    background-color: white;
 }
 
-body {
+.body {
     font-family: '"Helvetica Neue", Helvetica, Arial, sans-serif';
 }
 
